@@ -1,0 +1,11 @@
+name: "CI"
+on:
+  pull_request:
+  push:
+permissions: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Build"
+        run: echo "Build successful."
